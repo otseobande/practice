@@ -16,7 +16,7 @@
     "mocha": "^5.1.0"
   },
   "scripts": {
-    "test": "mocha tests --recursive --compilers js:babel-core/register"
+    "test": "mocha tests --recursive --require babel-core/register --require babel-polyfill"
   },
   "author": "Obande Otse",
   "license": "ISC"
